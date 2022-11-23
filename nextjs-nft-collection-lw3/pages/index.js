@@ -297,7 +297,7 @@ export default function Home() {
             {numTokensMinted === 0 ? 0 : numTokensMinted}/20 have been minted
             already!
           </div>
-          <div className={styles.title}>{renderBody()}</div>
+          <div className={styles.container}>{renderBody()}</div>
           <div>
             <img className={styles.image} src="/0.svg" />
           </div>

@@ -44,6 +44,12 @@
   margin-bottom: 2%;
 }
 
+.container {
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+}
+
 .loader {
   transform: rotateZ(45deg);
   perspective: 1000px;
