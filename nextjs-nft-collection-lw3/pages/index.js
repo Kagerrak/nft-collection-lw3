@@ -297,8 +297,10 @@ export default function Home() {
             {numTokensMinted === 0 ? 0 : numTokensMinted}/20 have been minted
             already!
           </div>
-          <div className={styles.container}>{renderBody()}</div>
-          <img className={styles.image} src="/0.svg" />
+          <div className={styles.title}>{renderBody()}</div>
+          <div>
+            <img className={styles.image} src="/0.svg" />
+          </div>
         </div>
       </div>
       <footer className={styles.footer}>Made with ❤️ by Crypto Devs</footer>

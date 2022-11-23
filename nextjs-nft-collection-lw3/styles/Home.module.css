@@ -43,11 +43,7 @@
   cursor: pointer;
   margin-bottom: 2%;
 }
-.container {
-  display: flex;
-  padding: 50px;
-  margin: 10px;
-}
+
 .loader {
   transform: rotateZ(45deg);
   perspective: 1000px;
